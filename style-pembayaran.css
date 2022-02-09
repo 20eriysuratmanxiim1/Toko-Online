@@ -276,15 +276,19 @@ table {
 .form {
     margin-top: -50px;
 }
-.reset button{
+
+.reset button {
     background-color: rgb(255, 0, 0);
 }
-.reset button:hover{
+
+.reset button:hover {
     background-color: rgb(179, 13, 13);
 }
-.pesan-sekarang button:hover{
+
+.pesan-sekarang button:hover {
     background-color: #3e8f40;
 }
+
 .footer {
     border-radius: 10px;
     margin-top: 50px;
@@ -339,4 +343,5 @@ table {
 .footer-logososmed img {
     width: 35px;
     margin-right: 20px;
+    cursor: pointer;
 }

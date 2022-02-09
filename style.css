@@ -458,13 +458,16 @@ body {
     height: 200px;
     background-color: rgb(230, 230, 230);
 }
+
 .footer a {
     text-decoration: none;
     color: black;
 }
+
 .footer a:hover {
     color: #02af98;
 }
+
 .footer-logo {
     margin-left: 30px;
     float: left;
@@ -474,6 +477,7 @@ body {
 .footer-logo img {
     width: 80px;
     margin-top: 20px;
+    cursor: pointer;
 }
 
 .footer-pelajaran {
@@ -503,5 +507,5 @@ body {
 .footer-logososmed img {
     width: 35px;
     margin-right: 20px;
+    cursor: pointer;
 }
-
