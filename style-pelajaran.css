@@ -1,0 +1,318 @@
+/* CSS Pelajaran */
+body {
+    font-family: 'Inter', sans-serif;
+    padding-left: 10px;
+}
+
+/* CSS Beranda */
+.header {
+    height: 70px;
+    padding-top: 10px;
+}
+
+.logo img {
+    width: 50px;
+    float: left;
+    padding-right: 30px;
+}
+
+.navbar {
+    float: left;
+    margin-top: 10px;
+    padding-right: 30px;
+    font-weight: 600;
+}
+
+.navbar a {
+    text-decoration: none;
+    color: #3d3b38;
+}
+
+.navbar :hover {
+    color: #00BFA6;
+}
+
+.navbar-masuk {
+    float: right;
+    margin-top: 10px;
+    padding-right: 20px;
+    font-weight: 600;
+}
+
+.navbar-masuk a {
+    text-decoration: none;
+    color: #3d3b38;
+}
+
+.navbar-masuk :hover {
+    color: #00BFA6;
+}
+
+.navbar-daftar {
+    float: right;
+    margin-top: 10px;
+    font-weight: 600;
+    border-radius: 10px;
+    margin-right: 50px;
+    width: 100px;
+}
+
+.navbar-daftar button {
+    background-color: #00BFA6;
+    color: white;
+    border-radius: 10px;
+    border: 0px;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    width: 100%;
+    height: 30px;
+    margin-top: -30px;
+}
+
+.navbar-daftar button:hover {
+    background-color: #02af98;
+}
+
+.navbar-daftar a {
+    text-decoration: none;
+    color: #3d3b38;
+    text-align: center;
+}
+
+.navbar-daftar :hover {
+    color: white;
+}
+
+.judul1 {
+    margin-left: 80px;
+}
+
+.judul h3 {
+    font-weight: 600
+}
+
+.bagian1 {
+    margin-left: 80px;
+    margin-top: 50px;
+    margin-right: 80px;
+    background-color: whitesmoke;
+    border-radius: 10px;
+    height: 400px;
+}
+
+.bagian1-text {
+    margin-left: 80px;
+    margin-top: 50px;
+    padding-top: 50px;
+}
+
+.bagian1-text h2 {
+    font-size: 26px;
+    width: 500px;
+}
+
+.bagian1-text p {
+    font-size: 16;
+    color: grey;
+    width: 500px;
+    font-weight: 500;
+}
+
+.bagian1-hero {
+    float: right;
+}
+
+.bagian1-hero img {
+    width: 400px;
+    margin-top: 50px;
+    margin-right: 20px;
+}
+
+.bagian1 button {
+    background-color: #00BFA6;
+    color: white;
+    border-radius: 10px;
+    width: 150px;
+    height: 40px;
+    border: 0px;
+    font-size: 14px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.bagian1 button:hover {
+    background-color: #02af98;
+}
+
+.bagian1:hover {
+    cursor: pointer;
+}
+
+.bagian2 {
+    margin-top: 50px;
+    height: 480px;
+}
+
+.judul2 {
+    margin-left: 80px;
+}
+
+.bagian2-daftar {
+    margin-left: 80px;
+    margin-top: 50px;
+}
+
+.daftar1 {
+    float: left;
+    margin-left: 50px;
+    background-color: whitesmoke;
+    width: 300px;
+    border-radius: 10px;
+    padding-top: 15px;
+    padding-bottom: 10px;
+    height: 270px;
+}
+
+.daftar1:hover {
+    background-color: rgb(230, 230, 230);
+    transition: 0.3;
+    cursor: pointer;
+}
+
+.daftar1 h4 {
+    text-align: center;
+    font-size: 18px;
+}
+
+.daftar1 img {
+    margin: auto;
+    display: block;
+    width: 100px;
+    border-radius: 10px;
+}
+
+.daftar1 p {
+    text-align: center;
+}
+
+.daftar2 {
+    float: left;
+    margin-left: 50px;
+    background-color: whitesmoke;
+    width: 300px;
+    border-radius: 10px;
+    padding-top: 15px;
+    padding-bottom: 10px;
+    height: 270px;
+}
+
+.daftar2:hover {
+    background-color: rgb(230, 230, 230);
+    transition: 0.3;
+    cursor: pointer;
+}
+
+.daftar2 h4 {
+    text-align: center;
+    font-size: 18px;
+}
+
+.daftar2 img {
+    margin: auto;
+    display: block;
+    width: 100px;
+    border-radius: 10px;
+}
+
+.daftar2 p {
+    text-align: center;
+}
+
+.daftar3 {
+    float: left;
+    margin-left: 50px;
+    background-color: whitesmoke;
+    width: 300px;
+    border-radius: 10px;
+    padding-top: 15px;
+    padding-bottom: 10px;
+    height: 270px;
+}
+
+.daftar3:hover {
+    background-color: rgb(230, 230, 230);
+    transition: 0.3;
+    cursor: pointer;
+}
+
+.daftar3 h4 {
+    text-align: center;
+    font-size: 18px;
+}
+
+.daftar3 img {
+    margin: auto;
+    display: block;
+    width: 100px;
+    border-radius: 10px;
+}
+
+.daftar3 p {
+    text-align: center;
+}
+
+.footer {
+    border-radius: 10px;
+    height: 200px;
+    background-color: rgb(230, 230, 230);
+}
+
+.footer a {
+    text-decoration: none;
+    color: black;
+}
+
+.footer a:hover {
+    color: #02af98;
+}
+
+.footer-logo {
+    margin-left: 30px;
+    float: left;
+    margin-top: 20px;
+}
+
+.footer-logo img {
+    width: 80px;
+    margin-top: 20px;
+}
+
+.footer-pelajaran {
+    float: left;
+    margin-left: 60px;
+    margin-top: 20px;
+}
+
+.footer-dukungan {
+    float: left;
+    margin-left: 60px;
+    margin-top: 20px;
+}
+
+.footer-sosmed {
+    float: left;
+    margin-left: 60px;
+    margin-top: 20px;
+}
+
+.footer-logososmed {
+    float: left;
+    margin-left: 60px;
+    margin-top: 40px;
+}
+
+.footer-logososmed img {
+    width: 35px;
+    margin-right: 20px;
+}

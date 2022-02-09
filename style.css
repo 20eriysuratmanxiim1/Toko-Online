@@ -1,0 +1,507 @@
+body {
+    font-family: 'Inter', sans-serif;
+    padding-left: 10px;
+}
+
+/* CSS Beranda */
+.header {
+    height: 70px;
+    padding-top: 10px;
+}
+
+.logo img {
+    width: 50px;
+    float: left;
+    padding-right: 30px;
+}
+
+.navbar {
+    float: left;
+    margin-top: 10px;
+    padding-right: 30px;
+    font-weight: 600;
+}
+
+.navbar a {
+    text-decoration: none;
+    color: #3d3b38;
+}
+
+.navbar :hover {
+    color: #00BFA6;
+}
+
+.navbar-masuk {
+    float: right;
+    margin-top: 10px;
+    padding-right: 20px;
+    font-weight: 600;
+}
+
+.navbar-masuk a {
+    text-decoration: none;
+    color: #3d3b38;
+}
+
+.navbar-masuk :hover {
+    color: #00BFA6;
+}
+
+.navbar-daftar {
+    float: right;
+    margin-top: 10px;
+    font-weight: 600;
+    border-radius: 10px;
+    margin-right: 50px;
+    width: 100px;
+}
+
+.navbar-daftar button {
+    background-color: #00BFA6;
+    color: white;
+    border-radius: 10px;
+    border: 0px;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    width: 100%;
+    height: 30px;
+    margin-top: -30px;
+}
+
+.navbar-daftar button:hover {
+    background-color: #02af98;
+}
+
+.navbar-daftar a {
+    text-decoration: none;
+    color: #3d3b38;
+    text-align: center;
+}
+
+.navbar-daftar :hover {
+    color: white;
+}
+
+.hero {
+    height: 500px;
+    margin-top: 30px;
+}
+
+.hero-image img {
+    height: 500px;
+    float: right;
+}
+
+.hero-text {
+    padding-top: 10px;
+}
+
+.hero-text span {
+    color: #00BFA6;
+}
+
+.hero-text p {
+    color: #3d3b38;
+    font-weight: 500;
+}
+
+.hero-text button {
+    background-color: #00BFA6;
+    color: white;
+    border-radius: 10px;
+    width: 250px;
+    height: 50px;
+    border: 0px;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.hero-text button:hover {
+    background-color: #02af98;
+}
+
+.hero-text a:hover {
+    color: #00BFA6;
+    background-color: white;
+}
+
+.slide1 {
+    text-align: center;
+    margin-top: 80px;
+    height: 400px;
+    transition: 0.3s;
+}
+
+.slide1 h2 {
+    font-weight: bold;
+    font-size: 36px;
+}
+
+.slide1 img {
+    width: 150px;
+    height: 100px;
+    margin-top: 30px;
+    padding-right: 30px;
+    transition: 0.3s;
+}
+
+.slide1 img:hover {
+    width: 200px;
+    height: 120px;
+    margin-top: 30px;
+    padding-right: 30px;
+    cursor: pointer;
+}
+
+.slide1-tombol {
+    margin-top: 50px;
+}
+
+.slide1-tombol button {
+    background-color: #00BFA6;
+    color: white;
+    border-radius: 10px;
+    width: 250px;
+    height: 50px;
+    border: 0px;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.slide1-tombol button:hover {
+    background-color: #02af98;
+}
+
+.slide1-tombol a:hover {
+    color: #00BFA6;
+    background-color: white;
+}
+
+.slide2 {
+    background-color: #2b546a;
+    padding-top: 20px;
+    border-radius: 10px;
+    height: 700px;
+    transition: 0.3s;
+}
+
+.slide2 h2 {
+    text-align: center;
+    color: white;
+    font-size: 32px;
+}
+
+.slide2 p {
+    color: white;
+    text-align: center;
+}
+
+.profile1 {
+    float: left;
+    width: 300px;
+    height: 400px;
+    background-color: white;
+    border-radius: 10px;
+    margin-left: 90px;
+    margin-top: 30px;
+    transition: 0.3s;
+}
+
+.profile1 img {
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    margin-left: 100px;
+    margin-top: 30px;
+    transition: 0.3s;
+}
+
+.profile1 h5 {
+    font-weight: bold;
+    color: #2b546a;
+    text-align: center;
+}
+
+.profile1 h4 {
+    font-weight: bold;
+    color: #2b546a;
+    opacity: 40%;
+    text-align: center;
+    margin-top: 130px;
+}
+
+.profile1 h6 {
+    font-weight: bold;
+    color: #2b546a;
+    opacity: 40%;
+    text-align: center;
+    font-size: 12px;
+}
+
+.profile1:hover {
+    width: 310px;
+    height: 410px;
+    background-color: white;
+    border-radius: 10px;
+    padding: 5px;
+    cursor: pointer;
+}
+
+.profile2 {
+    float: left;
+    width: 300px;
+    height: 400px;
+    background-color: white;
+    border-radius: 10px;
+    margin-left: 90px;
+    margin-top: 30px;
+    transition: 0.3s;
+}
+
+.profile2 img {
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    margin-left: 100px;
+    margin-top: 30px;
+}
+
+.profile2 h5 {
+    font-weight: bold;
+    color: #2b546a;
+    text-align: center;
+}
+
+.profile2 h4 {
+    font-weight: bold;
+    color: #2b546a;
+    opacity: 40%;
+    text-align: center;
+    margin-top: 130px;
+}
+
+.profile2 h6 {
+    font-weight: bold;
+    color: #2b546a;
+    opacity: 40%;
+    text-align: center;
+    font-size: 12px;
+}
+
+.profile2:hover {
+    width: 310px;
+    height: 410px;
+    background-color: white;
+    border-radius: 10px;
+    padding: 5px;
+    cursor: pointer;
+}
+
+.profile3 {
+    float: left;
+    width: 300px;
+    height: 400px;
+    background-color: white;
+    border-radius: 10px;
+    margin-left: 90px;
+    margin-top: 30px;
+    transition: 0.3s;
+}
+
+.profile3 img {
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    margin-left: 100px;
+    margin-top: 30px;
+}
+
+.profile3 h5 {
+    font-weight: bold;
+    color: #2b546a;
+    text-align: center;
+}
+
+.profile3 h4 {
+    font-weight: bold;
+    color: #2b546a;
+    opacity: 40%;
+    text-align: center;
+    margin-top: 130px;
+}
+
+.profile3 h6 {
+    font-weight: bold;
+    color: #2b546a;
+    opacity: 40%;
+    text-align: center;
+    font-size: 12px;
+}
+
+.profile3:hover {
+    width: 310px;
+    height: 410px;
+    background-color: white;
+    border-radius: 10px;
+    padding: 5px;
+    cursor: pointer;
+}
+
+.kontak {
+    padding-top: 10px;
+    margin-top: 50px;
+    height: 550px;
+    background-color: whitesmoke;
+    border-radius: 10px;
+}
+
+.kontak-head {
+    text-align: center;
+}
+
+.kontak-head h2 {
+    font-weight: bold;
+    font-size: 24px;
+}
+
+.kontak-head p {
+    font-size: 16px;
+}
+
+.kontak-hero {
+    float: right;
+}
+
+.kontak-hero img {
+    width: 500px;
+    margin-right: 10px;
+}
+
+.kontak-hero:hover {
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.form {
+    margin-left: 20px;
+}
+
+.nama {
+    margin-top: 20px;
+}
+
+.nama p {
+    font-weight: 500;
+}
+
+.nama input {
+    margin-top: -10px;
+    border-radius: 10px;
+    border: 2px solid #02af98;
+    padding: 20px;
+    width: 200px;
+    height: 10px;
+}
+
+.email p {
+    font-weight: 500;
+}
+
+.email input {
+    margin-top: -10px;
+    border-radius: 10px;
+    border: 2px solid #02af98;
+    padding: 20px;
+    width: 200px;
+    height: 10px;
+}
+
+.pesan p {
+    font-weight: 500;
+}
+
+.pesan textarea {
+    margin-top: -10px;
+    border-radius: 10px;
+    border: 2px solid #02af98;
+    padding: 20px;
+    width: 200px;
+    height: 50px;
+}
+
+.kirim {
+    margin-top: 20px;
+}
+
+.kirim button {
+    background-color: #00BFA6;
+    color: white;
+    border-radius: 10px;
+    width: 250px;
+    height: 50px;
+    border: 0px;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.kirim button:hover {
+    background-color: #02af98;
+}
+
+.footer {
+    border-radius: 10px;
+    margin-top: 50px;
+    height: 200px;
+    background-color: rgb(230, 230, 230);
+}
+.footer a {
+    text-decoration: none;
+    color: black;
+}
+.footer a:hover {
+    color: #02af98;
+}
+.footer-logo {
+    margin-left: 30px;
+    float: left;
+    margin-top: 20px;
+}
+
+.footer-logo img {
+    width: 80px;
+    margin-top: 20px;
+}
+
+.footer-pelajaran {
+    float: left;
+    margin-left: 60px;
+    margin-top: 20px;
+}
+
+.footer-dukungan {
+    float: left;
+    margin-left: 60px;
+    margin-top: 20px;
+}
+
+.footer-sosmed {
+    float: left;
+    margin-left: 60px;
+    margin-top: 20px;
+}
+
+.footer-logososmed {
+    float: left;
+    margin-left: 60px;
+    margin-top: 40px;
+}
+
+.footer-logososmed img {
+    width: 35px;
+    margin-right: 20px;
+}
+

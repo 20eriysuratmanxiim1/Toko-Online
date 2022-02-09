@@ -1,0 +1,342 @@
+/* CSS Pembayaran */
+body {
+    font-family: 'Inter', sans-serif;
+    padding-left: 10px;
+}
+
+/* CSS Beranda */
+.header {
+    height: 70px;
+    padding-top: 10px;
+}
+
+.logo img {
+    width: 50px;
+    float: left;
+    padding-right: 30px;
+}
+
+.navbar {
+    float: left;
+    margin-top: 10px;
+    padding-right: 30px;
+    font-weight: 600;
+}
+
+.navbar a {
+    text-decoration: none;
+    color: #3d3b38;
+}
+
+.navbar :hover {
+    color: #00BFA6;
+}
+
+.navbar-masuk {
+    float: right;
+    margin-top: 10px;
+    padding-right: 20px;
+    font-weight: 600;
+}
+
+.navbar-masuk a {
+    text-decoration: none;
+    color: #3d3b38;
+}
+
+.navbar-masuk :hover {
+    color: #00BFA6;
+}
+
+.navbar-daftar {
+    float: right;
+    margin-top: 10px;
+    font-weight: 600;
+    border-radius: 10px;
+    margin-right: 50px;
+    width: 100px;
+}
+
+.navbar-daftar button {
+    background-color: #00BFA6;
+    color: white;
+    border-radius: 10px;
+    border: 0px;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    width: 100%;
+    height: 30px;
+    margin-top: -30px;
+}
+
+.navbar-daftar button:hover {
+    background-color: #02af98;
+}
+
+.navbar-daftar a {
+    text-decoration: none;
+    color: #3d3b38;
+    text-align: center;
+}
+
+.navbar-daftar :hover {
+    color: white;
+}
+
+.bagian1 {
+    margin-top: 50px;
+    height: 480px;
+}
+
+.judul1 {
+    margin-left: 80px;
+}
+
+.bagian1-daftar {
+    margin-left: 80px;
+    margin-top: 50px;
+}
+
+.daftar1 {
+    float: left;
+    margin-left: 50px;
+    background-color: whitesmoke;
+    width: 300px;
+    border-radius: 10px;
+    padding-top: 15px;
+    padding-bottom: 10px;
+    height: 270px;
+}
+
+.daftar1:hover {
+    background-color: rgb(230, 230, 230);
+    transition: 0.3;
+    cursor: pointer;
+}
+
+.daftar1 h4 {
+    text-align: center;
+    font-size: 18px;
+}
+
+.daftar1 img {
+    margin: auto;
+    display: block;
+    width: 100px;
+    border-radius: 10px;
+}
+
+.daftar1 p {
+    text-align: center;
+    font-size: 18px;
+    font-weight: bold;
+    color: #2b546a;
+}
+
+.daftar1 button {
+    background-color: #00BFA6;
+    color: white;
+    border-radius: 10px;
+    border: 0px;
+    font-size: 14px;
+    font-weight: bold;
+    cursor: pointer;
+    width: 60%;
+    height: 30px;
+    margin-top: -30px;
+}
+
+.daftar1 button:hover {
+    background-color: #02af98;
+}
+
+.daftar2 {
+    float: left;
+    margin-left: 50px;
+    background-color: whitesmoke;
+    width: 300px;
+    border-radius: 10px;
+    padding-top: 15px;
+    padding-bottom: 10px;
+    height: 270px;
+}
+
+.daftar2:hover {
+    background-color: rgb(230, 230, 230);
+    transition: 0.3;
+    cursor: pointer;
+}
+
+.daftar2 h4 {
+    text-align: center;
+    font-size: 18px;
+}
+
+.daftar2 img {
+    margin: auto;
+    display: block;
+    width: 100px;
+    border-radius: 10px;
+}
+
+.daftar2 p {
+    text-align: center;
+    font-size: 18px;
+    font-weight: bold;
+    color: #2b546a;
+}
+
+.daftar2 button {
+    background-color: #00BFA6;
+    color: white;
+    border-radius: 10px;
+    border: 0px;
+    font-size: 14px;
+    font-weight: bold;
+    cursor: pointer;
+    width: 60%;
+    height: 30px;
+    margin-top: -30px;
+}
+
+.daftar2 button:hover {
+    background-color: #02af98;
+}
+
+.daftar3 {
+    float: left;
+    margin-left: 50px;
+    background-color: whitesmoke;
+    width: 300px;
+    border-radius: 10px;
+    padding-top: 15px;
+    padding-bottom: 10px;
+    height: 270px;
+}
+
+.daftar3:hover {
+    background-color: rgb(230, 230, 230);
+    transition: 0.3;
+    cursor: pointer;
+}
+
+.daftar3 h4 {
+    text-align: center;
+    font-size: 18px;
+}
+
+.daftar3 img {
+    margin: auto;
+    display: block;
+    width: 100px;
+    border-radius: 10px;
+}
+
+.daftar3 p {
+    text-align: center;
+    font-size: 18px;
+    font-weight: bold;
+    color: #2b546a;
+}
+
+.daftar3 button {
+    background-color: #00BFA6;
+    color: white;
+    border-radius: 10px;
+    border: 0px;
+    font-size: 14px;
+    font-weight: bold;
+    cursor: pointer;
+    width: 60%;
+    height: 30px;
+    margin-top: -30px;
+}
+
+.daftar3 button:hover {
+    background-color: #02af98;
+}
+
+table {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.form button {
+    width: 100%;
+    height: 40px;
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 10px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.form {
+    margin-top: -50px;
+}
+.reset button{
+    background-color: rgb(255, 0, 0);
+}
+.reset button:hover{
+    background-color: rgb(179, 13, 13);
+}
+.pesan-sekarang button:hover{
+    background-color: #3e8f40;
+}
+.footer {
+    border-radius: 10px;
+    margin-top: 50px;
+    height: 200px;
+    background-color: rgb(230, 230, 230);
+}
+
+.footer a {
+    text-decoration: none;
+    color: black;
+}
+
+.footer a:hover {
+    color: #02af98;
+}
+
+.footer-logo {
+    margin-left: 30px;
+    float: left;
+    margin-top: 20px;
+}
+
+.footer-logo img {
+    width: 80px;
+    margin-top: 20px;
+}
+
+.footer-pelajaran {
+    float: left;
+    margin-left: 60px;
+    margin-top: 20px;
+}
+
+.footer-dukungan {
+    float: left;
+    margin-left: 60px;
+    margin-top: 20px;
+}
+
+.footer-sosmed {
+    float: left;
+    margin-left: 60px;
+    margin-top: 20px;
+}
+
+.footer-logososmed {
+    float: left;
+    margin-left: 60px;
+    margin-top: 40px;
+}
+
+.footer-logososmed img {
+    width: 35px;
+    margin-right: 20px;
+}
