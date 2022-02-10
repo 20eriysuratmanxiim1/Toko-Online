@@ -383,8 +383,45 @@ body {
     cursor: pointer;
     transition: 0.3s;
 }
+.kontak-sosmed{
+    margin-top: 25px;
+    margin-left: 30px;
+}
+.kontak-sosmed img {
+    width: 80px;
+    margin-left: 80px;
+    margin-top: 30px;
+}
+.kontak-sosmed button {
+    background-color: #00BFA6;
+    color: white;
+    border-radius: 10px;
+    width: 250px;
+    height: 50px;
+    border: 0px;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+}
 
-.form {
+.kontak-sosmed button:hover {
+    background-color: #02af98;
+}
+.instagram button {
+    background:linear-gradient(45deg, #405de6, #5851db, #833ab4, #c13584, #e1306c, #fd1d1d);
+    opacity:.95;
+}
+.instagram button:hover {
+    background:linear-gradient(45deg, #405de6, #5851db, #833ab4, #c13584, #e1306c, #fd1d1d);
+    opacity: 1;
+}
+.whatsapp button{
+    background-color: #25D366;
+}
+.whatsapp button:hover{
+    background-color: #1bb352;
+}
+/* .form {
     margin-left: 20px;
 }
 
@@ -449,7 +486,7 @@ body {
 
 .kirim button:hover {
     background-color: #02af98;
-}
+} */
 
 .footer {
     border-radius: 10px;
