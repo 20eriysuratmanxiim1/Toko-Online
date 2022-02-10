@@ -14,6 +14,7 @@ body {
     float: left;
     padding-right: 30px;
 }
+
 .navbar {
     float: left;
     margin-top: 10px;
@@ -207,13 +208,13 @@ body {
     margin-left: 90px;
     margin-top: 30px;
     transition: 0.3s;
+    text-align: center;
 }
 
 .profile1 img {
     height: 100px;
     width: 100px;
     border-radius: 50%;
-    margin-left: 100px;
     margin-top: 30px;
     transition: 0.3s;
 }
@@ -258,13 +259,13 @@ body {
     margin-left: 90px;
     margin-top: 30px;
     transition: 0.3s;
+    text-align: center;
 }
 
 .profile2 img {
     height: 100px;
     width: 100px;
     border-radius: 50%;
-    margin-left: 100px;
     margin-top: 30px;
 }
 
@@ -308,13 +309,13 @@ body {
     margin-left: 90px;
     margin-top: 30px;
     transition: 0.3s;
+    text-align: center;
 }
 
 .profile3 img {
     height: 100px;
     width: 100px;
     border-radius: 50%;
-    margin-left: 100px;
     margin-top: 30px;
 }
 
@@ -383,15 +384,18 @@ body {
     cursor: pointer;
     transition: 0.3s;
 }
-.kontak-sosmed{
+
+.kontak-sosmed {
     margin-top: 25px;
     margin-left: 30px;
 }
+
 .kontak-sosmed img {
     width: 80px;
     margin-left: 80px;
     margin-top: 30px;
 }
+
 .kontak-sosmed button {
     background-color: #00BFA6;
     color: white;
@@ -407,20 +411,25 @@ body {
 .kontak-sosmed button:hover {
     background-color: #02af98;
 }
+
 .instagram button {
-    background:linear-gradient(45deg, #405de6, #5851db, #833ab4, #c13584, #e1306c, #fd1d1d);
-    opacity:.95;
+    background: linear-gradient(45deg, #405de6, #5851db, #833ab4, #c13584, #e1306c, #fd1d1d);
+    opacity: .95;
 }
+
 .instagram button:hover {
-    background:linear-gradient(45deg, #405de6, #5851db, #833ab4, #c13584, #e1306c, #fd1d1d);
+    background: linear-gradient(45deg, #405de6, #5851db, #833ab4, #c13584, #e1306c, #fd1d1d);
     opacity: 1;
 }
-.whatsapp button{
+
+.whatsapp button {
     background-color: #25D366;
 }
-.whatsapp button:hover{
+
+.whatsapp button:hover {
     background-color: #1bb352;
 }
+
 /* .form {
     margin-left: 20px;
 }
