@@ -172,12 +172,13 @@ body {
     padding-top: 15px;
     padding-bottom: 10px;
     height: 270px;
+    transition: .3s;
 }
 
 .daftar1:hover {
     background-color: rgb(230, 230, 230);
-    transition: 0.3;
     cursor: pointer;
+    transform: scale(1.1);
 }
 
 .daftar1 h4 {
@@ -205,12 +206,13 @@ body {
     padding-top: 15px;
     padding-bottom: 10px;
     height: 270px;
+    transition: .5s;
 }
 
 .daftar2:hover {
     background-color: rgb(230, 230, 230);
-    transition: 0.3;
     cursor: pointer;
+    transform: scale(1.1);
 }
 
 .daftar2 h4 {
@@ -238,12 +240,13 @@ body {
     padding-top: 15px;
     padding-bottom: 10px;
     height: 270px;
+    transition: .5s;
 }
 
 .daftar3:hover {
     background-color: rgb(230, 230, 230);
-    transition: 0.3;
     cursor: pointer;
+    transform: scale(1.1);
 }
 
 .daftar3 h4 {

@@ -148,8 +148,7 @@ body {
 }
 
 .slide1 img:hover {
-    width: 200px;
-    height: 120px;
+    transform: scale(1.2);
     margin-top: 30px;
     padding-right: 30px;
     cursor: pointer;
@@ -207,7 +206,7 @@ body {
     border-radius: 10px;
     margin-left: 90px;
     margin-top: 30px;
-    transition: 0.3s;
+    transition: .5s;
     text-align: center;
 }
 
@@ -242,8 +241,7 @@ body {
 }
 
 .profile1:hover {
-    width: 310px;
-    height: 410px;
+    transform: scale(1.1);
     background-color: white;
     border-radius: 10px;
     padding: 5px;
@@ -258,7 +256,7 @@ body {
     border-radius: 10px;
     margin-left: 90px;
     margin-top: 30px;
-    transition: 0.3s;
+    transition: .5s;
     text-align: center;
 }
 
@@ -292,8 +290,7 @@ body {
 }
 
 .profile2:hover {
-    width: 310px;
-    height: 410px;
+    transform: scale(1.1);
     background-color: white;
     border-radius: 10px;
     padding: 5px;
@@ -308,7 +305,7 @@ body {
     border-radius: 10px;
     margin-left: 90px;
     margin-top: 30px;
-    transition: 0.3s;
+    transition: .5s;
     text-align: center;
 }
 
@@ -342,8 +339,7 @@ body {
 }
 
 .profile3:hover {
-    width: 310px;
-    height: 410px;
+    transform: scale(1.1);
     background-color: white;
     border-radius: 10px;
     padding: 5px;
@@ -410,6 +406,11 @@ body {
 
 .kontak-sosmed button:hover {
     background-color: #02af98;
+}
+.kontak-sosmed img:hover{
+    transform: scale(1.1);
+    cursor: pointer;
+    transition: .3s;
 }
 
 .instagram button {
