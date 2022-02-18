@@ -1,135 +1,133 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Pembayaran | LetterWeb</title>
-    <link rel="stylesheet" href="style-pembayaran.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap"
-        rel="stylesheet">
-    <link rel="shorcut icon" href="image/logo.svg">
+    <link rel="stylesheet" href="style-pembayaran.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet" />
+    <link rel="shorcut icon" href="image/logo.svg" />
     <script src="script-pembayaran.js"></script>
-</head>
+  </head>
 
-<body>
+  <body>
     <div class="header">
-        <div class="logo"><a href="index.html"><img src="image/logo.svg" alt=""></a></div>
-        <div class="navbar"><a href="index.html">BERANDA</a></div>
-        <div class="navbar"><a href="index-pelajaran.html">PELAJARAN</a></div>
-        <div class="navbar"><a href="index-pembayaran.html">PEMBAYARAN</a></div>
-        <div class="navbar"><a href="index-tentangkami.html">TENTANG KAMI</a></div>
-        <!-- <div class="navbar-daftar"><a href=""><button>DAFTAR</button></a></div>
+      <div class="logo">
+        <a href="index.html"><img src="image/logo.svg" alt="" /></a>
+      </div>
+      <div class="navbar"><a href="index.html">BERANDA</a></div>
+      <div class="navbar"><a href="index-pelajaran.html">PELAJARAN</a></div>
+      <div class="navbar"><a href="index-pembayaran.html">PEMBAYARAN</a></div>
+      <div class="navbar"><a href="index-tentangkami.html">TENTANG KAMI</a></div>
+      <!-- <div class="navbar-daftar"><a href=""><button>DAFTAR</button></a></div>
         <div class="navbar-masuk"><a href="">MASUK</a></div> -->
     </div>
     <div class="main">
-        <div class="bagian1">
-            <div class="judul1">
-                <h3>Pilih Kursus</h3>
-            </div>
-            <div class="bagian1-daftar">
-                <div class="daftar1">
-                    <h4 id="ipt_namaBarang">JavaScript</h4>
-                    <img src="image/icons8-javascript.svg" alt="">
-                    <p id="ipt_hargaBarang">Rp.100.000</p>
-                    <p><button onclick="hitungjavascript()">Gabung Sekarang</button></p>
-                </div>
-                <div class="daftar2">
-                    <h4>Vue.js</h4>
-                    <img src="image/icons8-vue-js.svg" alt="">
-                    <p>Rp.150.000</p>
-                    <p><button onclick="hitungvuejs()">Gabung Sekarang</button></p>
-                </div>
-                <div class="daftar3">
-                    <h4>Node.js</h4>
-                    <img src="image/icons8-node-js.svg" alt="">
-                    <p>Rp.200.000</p>
-                    <p><button onclick="hitungnodejs()">Gabung Sekarang</button></p>
-                </div>
-            </div>
+      <div class="bagian1">
+        <div class="judul1">
+          <h3>Pilih Kursus</h3>
         </div>
-        <div class="form">
-            <table>
-                <thead>
-                </thead>
-                <tfoot>
-                    <tr>
-                        <th colspan="2">HASIL BELANJA</th>
-                    </tr>
-                    <tr>
-                        <th colspan="2">LetterWeb</th>
-                    </tr>
-                    <tr>
-                        <td>Nama Barang</td>
-                        <td> <input type="text" name="" id="opt_namaBarang" disabled></td>
-                    </tr>
-                    <tr>
-                        <td>Harga Barang</td>
-                        <td> <input type="text" name="" id="opt_hargaBarang" disabled></td>
-                    </tr>
-                    <tr>
-                        <td>Diskon</td>
-                        <td> <input type="text" name="" id="opt_diskon" disabled></td>
-                    </tr>
-                    <tr>
-                        <td>Harga Diskon</td>
-                        <td> <input type="text" name="" id="opt_hargaDiskon" disabled></td>
-                    </tr>
-                    <tr>
-                        <td>Total Harga</td>
-                        <td> <input type="text" name="" id="opt_totalHarga" disabled></td>
-                    </tr>
-                    <tr>
-                        <td colspan="2" class="reset"><button onclick="reset()">Reset</button></td>
-                    </tr>
-                    <tr>
-                        <td colspan="2" class="pesan-sekarang">
-                            <a href="https://wa.me/message/5AT4G434BVXYN1"><button>Pesan Sekarang</button></a>
-                        </td>
-                    </tr>
-                </tfoot>
-            </table>
+        <div class="bagian1-daftar">
+          <div class="daftar1">
+            <h4 id="ipt_namaBarang">JavaScript</h4>
+            <img src="image/icons8-javascript.svg" alt="" />
+            <p id="ipt_hargaBarang">Rp.100.000</p>
+            <p><button onclick="hitungjavascript()">Gabung Sekarang</button></p>
+          </div>
+          <div class="daftar2">
+            <h4>Vue.js</h4>
+            <img src="image/icons8-vue-js.svg" alt="" />
+            <p>Rp.150.000</p>
+            <p><button onclick="hitungvuejs()">Gabung Sekarang</button></p>
+          </div>
+          <div class="daftar3">
+            <h4>Node.js</h4>
+            <img src="image/icons8-node-js.svg" alt="" />
+            <p>Rp.200.000</p>
+            <p><button onclick="hitungnodejs()">Gabung Sekarang</button></p>
+          </div>
         </div>
+      </div>
+      <div class="form">
+        <table>
+          <thead></thead>
+          <tfoot>
+            <tr>
+              <th colspan="2">PEMBAYARAN KURSUS</th>
+            </tr>
+            <tr>
+              <th colspan="2">LetterWeb</th>
+            </tr>
+            <tr>
+              <td>Nama Kursus</td>
+              <td><input type="text" name="" id="opt_namaBarang" disabled /></td>
+            </tr>
+            <tr>
+              <td>Harga Kursus</td>
+              <td><input type="text" name="" id="opt_hargaBarang" disabled /></td>
+            </tr>
+            <tr>
+              <td>Diskon</td>
+              <td><input type="text" name="" id="opt_diskon" disabled /></td>
+            </tr>
+            <tr>
+              <td>Harga Diskon</td>
+              <td><input type="text" name="" id="opt_hargaDiskon" disabled /></td>
+            </tr>
+            <tr>
+              <td>Total Harga</td>
+              <td><input type="text" name="" id="opt_totalHarga" disabled /></td>
+            </tr>
+            <tr>
+              <td colspan="2" class="reset"><button onclick="reset()">Reset</button></td>
+            </tr>
+            <tr>
+              <td colspan="2" class="pesan-sekarang">
+                <a href="https://wa.me/message/5AT4G434BVXYN1"><button>Pesan Sekarang</button></a>
+              </td>
+            </tr>
+          </tfoot>
+        </table>
+      </div>
     </div>
     <div class="footer">
-        <div class="footer-logo">
-            <a href="index.html"><img src="image/logo.svg" alt=""></a>
-        </div>
-        <div class="footer-pelajaran">
-            <h4>Pelajaran</h4>
-            <a href="index-pelajaran.html">
-                <p>Vue JS</p>
-            </a>
-            <a href="index-pelajaran.html">
-                <p>Node JS</p>
-            </a>
-            <a href="index-pelajaran.html">
-                <p>Angular JS</p>
-            </a>
-        </div>
-        <div class="footer-dukungan">
-            <h4>Dukungan</h4>
-            <a href="index-tentangkami.html">
-                <p>Tentang LetterWeb</p>
-            </a>
-        </div>
-        <div class="footer-sosmed">
-            <h4>Hubungi Kami</h4>
-            <a href="https://www.instagram.com/eriy_man/">
-                <p>Instagram</p>
-            </a>
-            <a href="https://wa.me/message/5AT4G434BVXYN1">
-                <p>WhatsApp</p>
-            </a>
-        </div>
-        <div class="footer-logososmed">
-            <a href="https://www.instagram.com/eriy_man/"><img src="image/instagram-line.svg" alt=""></a>
-            <a href="https://wa.me/message/5AT4G434BVXYN1"><img src="image/whatsapp-line.svg" alt=""></a>
-        </div>
+      <div class="footer-logo">
+        <a href="index.html"><img src="image/logo.svg" alt="" /></a>
+      </div>
+      <div class="footer-pelajaran">
+        <h4>Pelajaran</h4>
+        <a href="index-pelajaran.html">
+          <p>Vue JS</p>
+        </a>
+        <a href="index-pelajaran.html">
+          <p>Node JS</p>
+        </a>
+        <a href="index-pelajaran.html">
+          <p>Angular JS</p>
+        </a>
+      </div>
+      <div class="footer-dukungan">
+        <h4>Dukungan</h4>
+        <a href="index-tentangkami.html">
+          <p>Tentang LetterWeb</p>
+        </a>
+      </div>
+      <div class="footer-sosmed">
+        <h4>Hubungi Kami</h4>
+        <a href="https://www.instagram.com/eriy_man/">
+          <p>Instagram</p>
+        </a>
+        <a href="https://wa.me/message/5AT4G434BVXYN1">
+          <p>WhatsApp</p>
+        </a>
+      </div>
+      <div class="footer-logososmed">
+        <a href="https://www.instagram.com/eriy_man/"><img src="image/instagram-line.svg" alt="" /></a>
+        <a href="https://wa.me/message/5AT4G434BVXYN1"><img src="image/whatsapp-line.svg" alt="" /></a>
+      </div>
     </div>
-</body>
-
+  </body>
 </html>
